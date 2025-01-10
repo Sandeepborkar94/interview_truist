@@ -1,7 +1,5 @@
 package com.interview.truist.interview_truist.logical;
 
-import java.util.Iterator;
-
 public class Array1 {
 	public static void main(String[] args) {
 		int[] m1 = m1();
