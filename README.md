@@ -824,6 +824,23 @@ Terraform manages AWS infrastructure declaratively.
 
 ---
 
+# Employee Repository
 
+This repository provides examples of custom query methods for the `Employee` entity in a Spring Data JPA application.
+
+## Repository Interface
+
+```java
+@Repository
+public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+
+    // Example: Find employees by department
+    @Query("SELECT e FROM Employee e WHERE e.department = :department")
+    List<Employee> findByDepartment(@Param("department") String department);
+
+    // Example: Custom native SQL query
+    @Query(value = "SELECT * FROM employee WHERE salary > :salary", nativeQuery = true)
+    List<Employee> findEmployeesWithSalaryGreaterThan(@Param("salary") Double salary);
+}
 
 
