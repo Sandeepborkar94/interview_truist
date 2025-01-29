@@ -1,0 +1,118 @@
+2-Day Advanced Preparation Plan for R1 Interview (1st Feb 2025)
+Role Requirement: 3-6 Years Experience
+Mandatory Skills: Java, Spring Boot, Microservices, Hibernate, Basic SQL
+Good to Have: Angular / Any UI Framework
+
+
+📅 Day 1: Thursday, 30th Jan 2025
+Morning (8:00 AM - 12:00 PM) - Advanced Java Concepts
+
+🔹 Topics to Cover:
+Concurrency & Multithreading: ThreadLocal, ForkJoinPool, CompletableFuture
+JVM Performance Tuning: Heap & Stack, GC tuning, Profiling tools
+Design Patterns: Factory, Strategy, Observer, Circuit Breaker in Microservices
+Java 8-17 Enhancements: Sealed classes, Records, Virtual Threads
+🔹 Interview Questions:
+How does ForkJoinPool work in Java?
+What is ThreadLocal and when should you use it?
+How do you optimize Java applications for high performance?
+Explain the difference between WeakReference, SoftReference, and PhantomReference.
+What are the benefits of using Records in Java 14+?
+🔹 Problems to Solve:
+Implement a thread-safe singleton pattern.
+Write a Java program to execute multiple async tasks using CompletableFuture.
+Implement a real-time producer-consumer problem using BlockingQueue.
+
+Afternoon (1:00 PM - 4:00 PM) - Spring Boot & Microservices
+🔹 Topics to Cover:
+Spring Boot Deep Dive: Lazy vs Eager initialization, Actuator, Metrics
+
+Spring Security: OAuth2, JWT, CSRF, RBAC
+Microservices Communication: Synchronous (REST, Feign) vs Asynchronous (Kafka, RabbitMQ)
+Resilience Patterns: Circuit Breaker (Resilience4j), Retry Mechanisms
+Dockerizing Spring Boot Apps & Deployment
+
+🔹 Interview Questions:
+How do you secure a REST API using JWT in Spring Boot?
+What is the difference between Feign Client and RestTemplate?
+Explain the Circuit Breaker Pattern and how to implement it using Resilience4j.
+How do you manage transactions across microservices?
+What are the benefits of using Kafka in Microservices?
+
+🔹 Problems to Solve:
+Create a secured Spring Boot REST API using JWT authentication.
+Implement a Feign Client to call another microservice.
+Configure a Spring Boot application with Resilience4j for Circuit Breaking.
+Evening (6:00 PM - 9:00 PM) - Hibernate & SQL Optimization
+🔹 Topics to Cover:
+
+Hibernate Performance Tuning: Caching (First-Level, Second-Level, Query Cache)
+Transaction Management: Isolation Levels, Propagation, ACID Compliance
+SQL Optimization: Indexing, Query Execution Plan, Partitioning
+Database Scaling: Sharding, Read-Replicas, Connection Pooling
+
+🔹 Interview Questions:
+How does Hibernate’s second-level cache work?
+What is the difference between optimistic and pessimistic locking?
+How do you handle lazy loading exceptions in Hibernate?
+What are the different types of indexes in SQL?
+How would you optimize a slow-running SQL query?
+
+🔹 Problems to Solve:
+Write an HQL query to fetch employees with the second-highest salary.
+Implement a Many-to-Many mapping in Hibernate.
+Optimize a SQL query using indexing and analyze the execution plan.
+
+
+📅 Day 2: Friday, 31st Jan 2025
+Morning (8:00 AM - 12:00 PM) - System Design & Architecture
+
+🔹 Topics to Cover:
+Scalability Patterns: Load Balancing, API Gateway, Rate Limiting
+Database Selection: SQL vs NoSQL (MongoDB, Cassandra)
+Caching Strategies: Redis, Memcached, EhCache
+Event-Driven Architecture: Kafka, RabbitMQ, SQS
+
+🔹 Interview Questions:
+How would you design a highly scalable e-commerce system?
+What is the CAP theorem, and how does it impact database design?
+How do you ensure consistency in a distributed microservices architecture?
+What are different caching strategies, and when to use them?
+How does Kafka handle message retention and partitioning?
+
+🔹 Hands-on Task:
+Design a microservices-based ride-sharing application (API structure, DB design).
+Implement Redis caching for a Spring Boot application.
+Write an API Gateway with rate-limiting functionality.
+Afternoon (1:00 PM - 4:00 PM) - Angular & UI (Optional but Good to Know)
+🔹 Topics to Cover:
+Component Lifecycle & State Management
+Angular Services & Dependency Injection
+Reactive Forms & API Integration (HttpClient)
+Routing & Guards for Security
+
+🔹 Interview Questions:
+What is the difference between template-driven and reactive forms in Angular?
+How does Angular handle dependency injection?
+What are Observables, and how are they different from Promises?
+How do you optimize an Angular application for performance?
+What is lazy loading in Angular, and how does it improve performance?
+
+🔹 Hands-on Task:
+Create a simple Angular app that fetches and displays user data from a REST API.
+Implement route guards to restrict access to specific components.
+Implement state management using RxJS and BehaviorSubject.
+Evening (6:00 PM - 9:00 PM) - Mock Interview & Final Review
+
+🔹 Tasks:
+Solve at least 3 LeetCode/HackerRank problems (medium-hard level)
+Revisit tricky interview questions from the past 2 days
+Conduct a mock interview session with a friend or using an AI platform
+Prepare structured answers using STAR (Situation, Task, Action, Result) method for behavioral questions
+Final Tips for R1 Interview Day (Saturday, 1st Feb 2025)
+
+✅ Prioritize problem-solving over theoretical explanations
+✅ Think aloud while coding during the interview
+✅ Use proper design principles in system design questions
+✅ Be prepared to write optimized SQL queries on the spot
+✅ Keep responses structured and precise

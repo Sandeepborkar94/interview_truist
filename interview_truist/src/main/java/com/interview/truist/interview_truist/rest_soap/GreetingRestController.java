@@ -11,6 +11,15 @@ public class GreetingRestController {
 
     @GetMapping("/rest/greet")
     public String greet(@RequestParam(defaultValue = "World") String name) {
-        return "Hello, " + name + "!";
+        return "<h1>Hello, " + name + "! </h1>";
     }
+   
+    @GetMapping(value = "/hello")
+    public String helloWorld()
+    {
+    	return "<h1>Welcome to Spring Boot Application!</h1>";
+    	
+    }
+    
+    
 }
